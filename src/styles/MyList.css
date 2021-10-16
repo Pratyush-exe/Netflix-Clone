@@ -1,0 +1,19 @@
+.MyList {
+  background-color: #111;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 50%;
+}
+
+.MyList-title {
+  color: white;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.Mylist-deccp {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}

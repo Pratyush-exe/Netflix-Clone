@@ -1,0 +1,57 @@
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  transition-timing-function: ease-in;
+  transition: all 200ms;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBlack {
+  background-color: #111;
+}
+
+.LeftSide {
+  display: flex;
+  color: white;
+  font-size: small;
+}
+
+.navMenu {
+  padding: 15px;
+  padding-left: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.navMenu:hover {
+  text-decoration: none;
+}
+
+.navMenu:checked {
+  font-style: italic;
+}
+
+.navLogo {
+  width: 100px;
+  left: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.invertIcon {
+  filter: invert(1);
+  width: 25px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.Avatar {
+  padding-right: 10px;
+  width: 30px;
+  cursor: pointer;
+}

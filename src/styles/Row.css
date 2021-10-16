@@ -1,0 +1,126 @@
+.rowPoster {
+  object-fit: contain;
+  max-height: 200px;
+  width: 100%;
+  margin-right: 30px;
+  transition: transform 0.25s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.rowPoster:hover {
+  transform: scale(1.08);
+}
+
+.ListPosters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 30px;
+}
+
+.rowPosterLarge {
+  max-height: 250px;
+}
+
+.ListPosters::-webkit-scrollbar {
+  display: none;
+}
+
+.row {
+  color: white;
+  margin-left: 20px;
+}
+
+.TrendingNums {
+  font-family: "Open sans";
+  color: rgb(14, 14, 14);
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: 1px;
+  margin: 0;
+  padding: 0;
+  margin-top: -80px;
+  margin-right: -40px;
+  margin-left: 20px;
+  margin-bottom: -70px;
+  font-size: 250px;
+}
+
+.Movie_More {
+  visibility: hidden;
+  background-color: black;
+  height: 0px;
+  width: 100%;
+  display: flex;
+  overflow-y: hidden;
+  transition: all 0.3s ease-in;
+  border-radius: 20px;
+}
+
+.Movie_More_left {
+  height: 400px;
+  background-color: rgb(44, 44, 44);
+  width: 50%;
+  transition: all 0.3s ease-in;
+}
+
+.Movie_More_right {
+  height: 400px;
+  background-color: rgb(27, 27, 27);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: all 0.3s ease-in;
+}
+
+.ShadeMovieMore {
+  background-image: linear-gradient(
+    270deg,
+    rgba(27, 27, 27, 1) 4%,
+    rgba(27, 27, 27, 0.75) 23%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  width: 300px;
+  height: 100%;
+}
+
+.Movie_More_Title {
+  font-size: 40px;
+  padding: 20px;
+  padding-left: 40px;
+  width: 400px;
+  transition: all 0.3s ease-in;
+}
+
+.Movie_More_Descp {
+  font-size: 13px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-top: 0px;
+  width: 400px;
+  transition: all 0.3s ease-in;
+}
+
+.Movie_More_Details {
+  padding: 20px;
+  padding-left: 40px;
+  padding-top: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.inverted {
+  filter: invert(1);
+  width: 35px;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.buttons {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

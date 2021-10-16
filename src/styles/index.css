@@ -1,0 +1,7 @@
+* {
+  font-family: "open sans";
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

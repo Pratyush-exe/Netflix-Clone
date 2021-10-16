@@ -1,0 +1,35 @@
+.Footer {
+  background-color: rgb(22, 22, 22);
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.ListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 100px;
+}
+
+h3 {
+  font-size: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h4 {
+  font-size: 12px;
+  padding: 10px;
+}
+
+h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
