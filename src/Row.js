@@ -59,11 +59,11 @@ function Row({title, url, isOriginal, isTrending, num}) {
         <div className="ListPosters">
             {movies.map(movie => (
               <>
-                {isTrending?<h3 className='TrendingNums'>{count = count+1}</h3>:""}
+                {isTrending?<h3 className='TrendingNums' style={{color: 'rgb(14,14,14)', textShadow: 'white 0px 0px 0px'}}>{count = count+1}</h3>:""}
                 <img 
                     key = {movie.id}
                     onClick={() => handleClick(movie)}
-                    className= {`rowPoster ${isOriginal && "rowPosterLarge"}`} 
+                    className= {`rowPoster ${isOriginal && "rowPosterLarge"}`}
                     src={`${baseImgUrl}${movie.poster_path}`} 
                     alt={movie.name}
                 />

@@ -35,7 +35,7 @@ function Nav() {
                     alt="NetflixLogo"/>
                     
                 {navMenu.map((menu, i) => (
-                    <Link to={links[i]} style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                    <Link to={links[i]} style={{ color: 'inherit', textDecoration: 'inherit'}} key={`nav_${i}`}>
                         <h4 className="navMenu">{menu}</h4>
                     </Link>
                 ))}
